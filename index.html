@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Delivery Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <h1 class="logo">Food Delivery</h1>
+       
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero">
+      <h1 class="animated-text">Delicious Food Delivered to Your Doorstep</h1>
+    </div>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="container">
+        <!-- Content for the home section goes here -->
+      </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+          <h2>About Us</h2>
+          <div class="about-content">
+            <img src="about-image.jpg" alt="About Image" class="about-image">
+            <div class="about-text">
+              <h3>Welcome to Food Delivery</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+              <p>Nunc rhoncus, libero et pretium efficitur, leo ex auctor metus, a eleifend sem magna vitae mauris. Donec vitae eros turpis. Morbi ultrices rutrum blandit. Sed eget mauris consectetur, aliquet felis nec, ultrices lacus.</p>
+              <p>Sed lacinia ligula nec ex rutrum commodo. Phasellus mattis, sem eget egestas iaculis, orci turpis congue dolor, vitae eleifend lectus urna eget quam. In hac habitasse platea dictumst.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    
+      <section id="menu">
+        <div class="container">
+          <h2>Our Menu</h2>
+          <div class="menu-items">
+            <div class="menu-item">
+              <img src="menu-item-1.jpg" alt="Menu Item 1" class="menu-item-image">
+              <h3 class="menu-item-title">Delicious Dish 1</h3>
+              <p class="menu-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in lorem euismod, venenatis odio at, malesuada nulla.</p>
+              <span class="menu-item-price">$10.99</span>
+              <button class="add-to-cart" data-id="1">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+              <img src="menu-item-2.jpg" alt="Menu Item 2" class="menu-item-image">
+              <h3 class="menu-item-title">Delicious Dish 2</h3>
+              <p class="menu-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in lorem euismod, venenatis odio at, malesuada nulla.</p>
+              <span class="menu-item-price">$12.99</span>
+              <button class="add-to-cart" data-id="2">Add to Cart</button>
+            </div>
+            <!-- Add more menu items as needed -->
+          </div>
+        </div>
+      </section>
+      
+      <div id="cart">
+        <h3>Shopping Cart</h3>
+        <ul id="cart-items"></ul>
+        <div id="cart-total">Total: $0.00</div>
+        <button id="checkout">Checkout</button>
+      </div>
+      
+      
+    
+    <section id="contact">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <form action="mailto:akashmandal6297@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Submit</button>
+          </form>
+        </div>
+      </section>
+      
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="footer-logo.png" alt="Footer Logo">
+          <h3>Food Delivery</h3>
+        </div>
+        <div class="footer-social">
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-credits">© 2023 Food Delivery. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
