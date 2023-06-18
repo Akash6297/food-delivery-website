@@ -20,8 +20,3 @@ Feel free to customize the website according to your specific requirements and b
 
 ## Screenshots
 
-Add screenshots of your website here to showcase its design and features.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
