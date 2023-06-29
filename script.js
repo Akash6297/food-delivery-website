@@ -127,3 +127,24 @@ function checkout() {
   updateCartUI();
 }
 
+// JavaScript to control the popup
+document.addEventListener('DOMContentLoaded', function () {
+  var popup = document.getElementById('popup');
+  var closeButton = document.getElementById('close-btn');
+
+  // Show the popup
+  function showPopup() {
+    popup.classList.add('active');
+  }
+
+  // Hide the popup
+  function hidePopup() {
+    popup.classList.remove('active');
+  }
+
+  // Show the popup when the page loads
+  showPopup();
+
+  // Hide the popup when the close button is clicked
+  closeButton.addEventListener('click', hidePopup);
+});
